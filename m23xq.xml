@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="me" 
+        fetch="https://github.com/ZeroMayo" />
+ <remote name="Aflaungos" 
+        fetch="https://github.com/Aflaungos" />
+ <remote name="LineageOS" 
+        fetch="https://github.com/LineageOS" />
+ <!-- Trees -->
+ <project path="device/samsung/m23xq" name="android_device_samsung_m23xq" remote="me" revision="lineage-24.0" />
+ <!-- Vendor -->
+ <project path="vendor/samsung/m23xq" name="android_vendor_samsung_m23xq" remote="me" revision="lineage-24.0" />
+ <!-- Kernel -->
+ <project path="kernel/samsung/m23xq" name="android_kernel_samsung_sm7225_testing" remote="Aflaungos" revision="lineage-24.0" />
+</manifest>
