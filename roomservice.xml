@@ -7,9 +7,9 @@
  <remote name="LineageOS" 
         fetch="https://github.com/LineageOS" />
  <!-- Trees -->
- <project path="device/samsung/m23xq" name="android_device_samsung_m23xq" remote="me" revision="lineage-24.0" />
+ <project path="device/samsung/m23xq" name="android_device_samsung_m23xq" remote="me" revision="cnb" />
  <!-- Vendor -->
- <project path="vendor/samsung/m23xq" name="android_vendor_samsung_m23xq" remote="me" revision="lineage-24.0" />
+ <project path="vendor/samsung/m23xq" name="android_vendor_samsung_m23xq" remote="me" revision="cnb" />
  <!-- Kernel -->
  <project path="kernel/samsung/m23xq" name="android_kernel_samsung_sm7225_testing" remote="Aflaungos" revision="lineage-24.0" />
 </manifest>
