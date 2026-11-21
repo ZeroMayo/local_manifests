@@ -12,6 +12,9 @@
  <!-- Vendor -->
  <project path="vendor/samsung/m23xq" name="android_vendor_samsung_m23xq" remote="me" revision="cnb" />
  <!-- Kernel -->
- <project path="kernel/samsung/m23xq" name="android_kernel_samsung_sm7225_testing" remote="me" revision="lineage-24.0" />
+ <project path="kernel/samsung/m23xq" name="android_kernel_samsung_sm7225" remote="me" revision="lineage-24.0" />
+ <remove-project name="platform/packages/modules/ImsStack" />
+ <project path="packages/modules/ImsStack" name="ImsStack" remote="krazey" revision="android17-release" />
+ <project path="packages/apps/CarrierSettings" name="CarrierSettings" remote="krazey" revision="main" />
  <project path="hardware/samsung" name="android_hardware_samsung" remote="LineageOS" revision="lineage-24.0" />
 </manifest>
